@@ -7,4 +7,15 @@ They can also like photos, edit, delete, and download.
 ## Installation Instructions
 1. Clone the repository
 ```sh
+git clone https://github.com/inaangelok/Gallery.git
 
+2. Create database
+Create a `gallery` database and import a gallery.sql
+Set encoding type utf8_general_ci
+
+3. Server Settings
+Create a domain, redirect to root folder `public`
+Set up modules PHP 8.0, and MySQL 8.0-8.1
+
+4. Open
+Open a browser and type your created domain in the search zone
