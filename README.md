@@ -62,12 +62,39 @@ CREATE DATABASE gallery CHARACTER SET utf8 COLLATE utf8_general_ci;
 ## Navigation
 1. Home page
    
-   You can redirect to the home page by clicking the Logo "Gallery" or typing HTTP://your-domain/front/home
+   You can redirect to the home page by clicking the Logo "Gallery" or typing
+   ```sh
+    HTTP://your-domain/front/home
+   ```
+   
    ![Home page](https://github.com/inaangelok/Gallery/blob/main/Screenshots/Screenshot%202024-06-22%20202135.png)
    
    Here is the same page after authentification
    
    ![Home Page Registered](https://github.com/inaangelok/Gallery/blob/main/Screenshots/Screenshot%202024-06-22%20202238.png?raw=true)
+
+3. Other pages
+
+   Here is the navigation structure for other pages:
+   ### Header
+   
+      * Login/Logout
+      * My photos
+      * Wishlist
+  
+   ### Footer
+   
+      * Login and Register/Logout
+      * Add Photo
+      * My Photos
+      * Wishlist
+      * Blank Pages without href
+  
+  ## Screenshots
+
+  There are also screenshots of every page in the Screenshots/ folder.
+
+## Summary
 
 Feel free to ask if you need further clarification or have additional questions!
 
